@@ -1,0 +1,14 @@
+auto mounted with fstab, see link...
+http://www.raspberrypi-spy.co.uk/2014/05/how-to-mount-a-usb-flash-disk-on-the-raspberry-pi/
+pi@raspberrypi ~ $ ls -laF /dev/disk/by-uuid/
+total 0
+drwxr-xr-x 2 root root 200 Oct  2 15:30 ./
+drwxr-xr-x 6 root root 120 Jan  1  1970 ../
+lrwxrwxrwx 1 root root  15 Oct  2 15:30 0135-8380 -> ../../mmcblk0p5
+lrwxrwxrwx 1 root root  10 Oct  2 15:30 0483-51F3 -> ../../sdc1
+lrwxrwxrwx 1 root root  15 Oct  2 15:30 3b725b51-b06d-4bb2-a830-1d4a9e32c154 -> ../../mmcblk0p6
+lrwxrwxrwx 1 root root  10 Jan  1  1970 6C82-A7B5 -> ../../sda1
+lrwxrwxrwx 1 root root  15 Jan  1  1970 98b8c20d-8866-475b-b959-d7e4ce3a3e46 -> ../../mmcblk0p3
+lrwxrwxrwx 1 root root  10 Oct  2 15:30 DA75-4FD0 -> ../../sdd1
+lrwxrwxrwx 1 root root  10 Oct  2 15:30 E884-2E0E -> ../../sdb1
+lrwxrwxrwx 1 root root  15 Jan  1  1970 F22D-F36C -> ../../mmcblk0p1
